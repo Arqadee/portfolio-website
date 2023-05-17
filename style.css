@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Primary Color: #FF7F50 (Coral)
+
+Color Palette:
+
+Primary Color: #FF7F50 (Coral)
+Accent Color 1: #335EFF (Royal Blue)
+Accent Color 2: #66CDAA (Medium Aquamarine)
+Neutral Color 1: #333333 (Charcoal)
+Neutral Color 2: #FFFFFF (White) */
+
+body {
+  background: url(noise.png);
+}
+
+/* Heading font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body text font */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+p,
+body,
+.text {
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: #191919;
+}
+
+/* NAVIGATION BAR SECTION */
+
+.section-navbar {
+  background-color: #fca311;
+  border-radius: 100px;
+  width: 150px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navBar {
+}
+
+.section-navbar-name {
+  text-decoration: none;
+  font-size: 25px;
+  color: #14213d;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.logo {
+  padding-top: 2.5px;
+  height: 45px;
+  border-radius: 150px;
+  display: inline-block;
+}
+
+/* HERO SECTION CODE */
+
+.section-hero {
+  height: 100vh;
+}
+
+.section-hero-grid {
+}
+
+.section-hero-img {
+  height: 400px;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+
+.section-hero-text {
+  align-self: center;
+  text-align: center;
+}
+
+.section-hero-text p {
+  font-size: 30px;
+  color: #e5e5e5;
+}
+
+.section-hero-text h2 {
+  font-size: 60px;
+  color: #e5e5e5;
+  font-weight: 600;
+  letter-spacing: -2px;
+  line-height: 40px;
+  border: 10px solid #63ca00;
+  padding: 15px;
+  display: inline-block;
+}
+
+.section-hero-text: {
+  color: #98fb98;
+}
+
+.section-hero-btn {
+  background-color: #fca311;
+  font-weight: 800;
+  color: #14213d;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 40px;
+  top: 350px;
+  position: absolute;
+}
+
+.section-hero-text-p-3child {
+  line-height: 40px;
+}
